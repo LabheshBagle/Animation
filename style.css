@@ -47,15 +47,60 @@
 
 .load-container .pole:nth-child(1)
 {
-    height: 90%;
+    animation: up-90 3s linear infinite alternate;
 }
 
 .load-container .pole:nth-child(2)
 {
-    height: 60%;
+    animation: up-60 3s linear infinite alternate;
 }
 
 .load-container .pole:nth-child(3)
 {
-    height: 30%;
+     animation: up-30 3s linear infinite alternate;
+}
+
+@keyframes up-90 {
+    0%
+    {
+        height: 90%;
+    }   
+    50%
+    {
+        height: 60%;
+    } 
+    100%
+    {
+        height: 30%;
+    }
+}
+
+@keyframes up-60 {
+    0%
+    {
+        height: 60%;
+    }   
+    50%
+    {
+        height: 90%;
+    }
+    100%
+    {
+        height: 30%;
+    }
+}
+
+@keyframes up-30 {
+    0%
+    {
+        height: 30%;
+    }
+    50%
+    {
+        height: 50%;
+    }
+    100%
+    {
+        height: 90%;
+    }
 }
