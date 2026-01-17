@@ -39,7 +39,9 @@
 }
 
 .pole
-{
+{   
+    border-radius: 26px;
+    box-shadow: -20px -19px 0px 1px #1e3a46c9;
     width: 150px;
     height: 150px;
     background-color: #5bc7d1;
